@@ -10,7 +10,7 @@
     height: 100vh;
   } */
 
-  @media (max-width: 768px) {
+  @media (max-width: 968px) {
     .stopwatch-container {
       display: flex;
       flex-direction: column;
