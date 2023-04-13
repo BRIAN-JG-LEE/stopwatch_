@@ -10,76 +10,76 @@
     height: 100vh;
   } */
 
-  @media screen and (max-width: 567px) {
-    .stopwatch-container {
+@media screen and (max-width: 567px) {
+  .stopwatch-container {
     height: auto;
-    }
-    }
-    
-    @media screen and (min-width: 568px) {
-    .stopwatch-container {
-    display: flex;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .stopwatch-container {
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    }
-    }
-  
-  .time-display {
-    font-size: 3.05rem;
-    text-align: center;
-    font-family: 'Chivo Mono', monospace;
-    margin-top: 0.6rem;
+    height: 100vh; */
+    height: auto;
   }
-  
-  .button-group {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  button {
-    align-items: center;
-    font-size: 1.2rem;
-    margin: 0 1.1rem;
-    padding: 0.5rem 1rem;
-    font-family: 'Quantico', sans-serif;
-  }
-  
-  .stopwatch-header {
-    background-color: rgb(187, 218, 243);
-    color: white;
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 33px;
-    font-weight: bold;
-    font-family: 'Tangerine', cursive;
-  }
-  
-  .lap-list {
-    align-items: center;
-    margin-top: 75px ;
-    border: 1px solid black;
-    min-height: 200px;
-    min-width: 341px;
-    /* overflow-y: scroll; */
-  }
+}
+
+.time-display {
+  font-size: 3.05rem;
+  text-align: center;
+  font-family: 'Chivo Mono', monospace;
+  margin-top: 0.6rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button {
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0 1.1rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Quantico', sans-serif;
+}
+
+.stopwatch-header {
+  background-color: rgb(187, 218, 243);
+  color: white;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: 'Tangerine', cursive;
+}
+
+.lap-list {
+  align-items: center;
+  margin-top: 75px;
+  border: 1px solid black;
+  min-height: 200px;
+  min-width: 341px;
+  /* overflow-y: scroll; */
+}
 
 
-  .lap-number {
-    font-family: 'Quantico', sans-serif;
-    margin-left: 15px;
-  }
+.lap-number {
+  font-family: 'Quantico', sans-serif;
+  margin-left: 15px;
+}
 
-  .lap-time{
-    font-family: 'Quantico', sans-serif;
-  }
-  
+.lap-time {
+  font-family: 'Quantico', sans-serif;
+}
