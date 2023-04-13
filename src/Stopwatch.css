@@ -10,15 +10,21 @@
     height: 100vh;
   } */
 
-  @media (min-width: 568px) {
+  @media screen and (max-width: 567px) {
     .stopwatch-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+    height: auto;
     }
-  }
+    }
+    
+    @media screen and (min-width: 568px) {
+    .stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    }
   
   .time-display {
     font-size: 3.05rem;
