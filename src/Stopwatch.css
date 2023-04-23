@@ -32,6 +32,7 @@
   text-align: center;
   font-family: 'Chivo Mono', monospace;
   margin-top: 0.6rem;
+
 }
 
 .button-group {
@@ -44,13 +45,13 @@ button {
   align-items: center;
   font-size: 1.2rem;
   margin: 0 1.1rem;
+  margin-top: 7%;
   padding: 0.5rem 1rem;
   font-family: 'Quantico', sans-serif;
 }
 
 .stopwatch-header {
-  background-color: rgb(187, 218, 243);
-  color: white;
+  color: #000000;
   height: 40px;
   width: 100%;
   position: fixed;
@@ -60,7 +61,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 33px;
+  font-size: 16px;
   font-weight: bold;
   font-family: 'Tangerine', cursive;
 }
@@ -82,4 +83,9 @@ button {
 
 .lap-time {
   font-family: 'Quantico', sans-serif;
+}
+
+.time-display-buttons {
+  height: auto;
+  margin-top: 8%;
 }
