@@ -10,12 +10,12 @@ function MyComponent() {
       <meta name="keywords" content="free, stopwatch, online, split times, timer"/>
       <meta name="author" content="brian"/>
       <meta property="og:title" content="Free Stopwatch - Online Stopwatch with Split Times"/>
-      <meta property="og:description" content="Free Stopwatch is a simple online stopwatch with split times feature. Measure the duration of any event with high precision."/>
+      <meta property="og:description" content="Free Stopwatch is a simple online stopwatch with split times feature. Measure the duration of any event with high precision!"/>
       <meta property="og:image" content="https://freestopwatch.site/images/og-image.jpg"/>
       <meta property="og:url" content="https://freestopwatch.site"/>
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:title" content="Free Stopwatch - Online Stopwatch with Split Times"/>
-      <meta name="twitter:description" content="Free Stopwatch is a simple online stopwatch with split times feature. Measure the duration of any event with high precision."/>
+      <meta name="twitter:description" content="Free Stopwatch is a simple online stopwatch with split times feature. Measure the duration of any event with high precision"/>
       <meta name="twitter:image" content="https://freestopwatch.site/images/twitter-image.jpg"/>
       <meta name="twitter:url" content="https://freestopwatch.site"/>
       <link rel="manifest" href="manifest.json"/>
